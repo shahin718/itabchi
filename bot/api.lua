@@ -156,7 +156,7 @@ d:del("tallmsg")
 d:del("asgp")
 d:del("tgp")
 d:del("tusers")
-tabchi.sendText(msg.chat_id_, msg.id_,1,' Stats TabChi Has Been Reseted ',1,'md')
+tabchi.sendText(msg.chat_id_, msg.id_,1,' دوباره تنظیم شد عشقم 😌 ',1,'md')
         print("Tabchi [ Message ]")
 end
 
