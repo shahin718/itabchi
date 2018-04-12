@@ -407,7 +407,7 @@ if text and text:match('^setpm (.*)') and is_sudo(msg) then
           tabchi.sendText(msg.chat_id_, msg.id_, 1,'*Pm Removed*', 1, 'md')
             end 
 if text == 'ping' and is_sudo(msg) then
-tabchi.sendText(msg.chat_id_,msg.id_,1,'*انلاینم عشقم 😘*',1,'md')
+tabchi.sendText(msg.chat_id_,msg.id_,1,'*☆ Im Online ☆*',1,'md')
 end
 if text == 'reload' and is_sudo(msg) then
  dofile('./bot/funcation.lua')
