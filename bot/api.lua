@@ -182,6 +182,9 @@ if text == 'reload' and is_sudo(msg) then
  dofile('./bot/api.lua')
 tabchi.sendText(msg.chat_id_,msg.id_,1,'*Tabchi Api BOT Reloaded*',1,'md')
 end
+if text == 'ping' and is_sudo(msg) then
+tabchi.sendText(msg.chat_id_,msg.id_,1,'*انلاینم عشقم 😘*',1,'md')
+end
 if text == 'git pull' and is_sudo(msg) then
 text = io.popen("git pull"):read('*all')
  tabchi.sendText(msg.chat_id_, msg.id_, 1,text, 1, 'md')
